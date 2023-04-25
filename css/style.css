@@ -1,0 +1,238 @@
+@font-face {
+    font-family: poppins;
+    src: url('poppins.ttf');
+}
+@font-face{
+    font-family: pacifico;
+    src: url('pacifico.ttf');
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins,sans-serif;
+    letter-spacing: 1px;
+}
+body{
+    background: #081b29;
+    color: aliceblue;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 140px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-container a{
+    color: aliceblue;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 25px;
+}
+.logo-container a .span{
+    font-family: pacifico;
+}
+span{
+    color: aqua;
+}
+.nav-bar a{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 500;
+    font-size: 16px;
+    margin-left: 35px;
+    transition: .5s;
+    text-transform: uppercase;
+}
+.nav-bar a:hover{
+    color: #00abf0;
+}
+
+.home{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0px 10%;
+    
+}
+.home .container{
+    max-width: 600px;
+}
+.home .container .name{
+    font-size: 56px;
+    font-weight: 700;
+    margin-bottom: 3px;
+}
+h3{
+    font-family: 'Castoro Titling', cursive;
+    font-size: 30px;
+    color: transparent;
+    -webkit-text-stroke: .5px #00abf0;
+    font-weight: 400;
+    margin-bottom: 6px;
+}   
+p{
+    font-size: 16px;
+    line-height: 25px;
+}
+.home-image{
+    height: 450px;
+    width: 440px;
+    margin-left: 150px;
+}
+
+
+.about{
+    background: #112e42;
+    height: 100vh;
+    width: 100%;
+    padding: 40px 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: top 2s ease-in-out 2s,opacity 2s ease-in-out 2s,transform 2s ease-in-out 2s;
+
+}
+.heading{
+    font-size: 54px;
+    font-weight: 700;
+}
+.about .about-image .img{
+    height: 300px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.about .about-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 65%;
+}
+.about .about-content p{
+    line-height: 26px;
+}
+
+.about .about-content h3{
+    margin-top: 10px;
+}
+.about .btn-cont{
+    padding: 10px;
+    margin-top: 20px;
+    
+}
+.btn{
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #00abf0;
+    color: #081b29;
+}
+
+
+
+.skill{
+    background: #081b29;
+    height: 100vh;
+    width: 100%;
+    padding: 40px 10%;
+    display: flex;
+    flex-direction: column;
+}
+.skill .skill-container{
+    border: solid 3px #00abf0;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.skill h2{
+    text-align: center;
+}
+
+.skill .skill-container .h{
+    font-size: 26px;
+    font-weight: 400;
+}
+.skill .skill-container .ps{
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+
+.contact{
+    background: #112e42;
+    height: 100vh;
+    width: 100%;
+    padding: 80px 25%;
+    min-height: auto;
+    text-align: center;
+}
+.contact form{
+    max-width: 70rem;
+    margin: 0 auto;
+    text-align: center;
+}
+.contact form .input-box{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact form .input-box .input-field{
+    position: relative;
+    width: 49%;
+    margin: 10px 0;
+}
+.contact form .input-box .input-field input,
+.contact form .textarea-field textarea{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    font-size: 20px;
+    color: #00abf0;
+    background: transparent;
+    border-radius: .6rem;
+    border: .2rem solid #00abf0;
+}
+.contact form .input-box .input-field input::placeholder,
+.contact form .textarea-field textarea::placeholder{
+    color: aliceblue;
+}
+
+.btn{
+    cursor: pointer;
+    border: none;
+}
+.btn:hover{
+    color: #00abf0;
+    background: #081b29;
+}
+
+.foot{
+    padding: 10px 140px;
+    background: #081b29;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}   
+.foot .footer p{
+    font-size: small;
+}
+
+.icon{
+    color: aliceblue;
+    width: 40px;
+    height: 20px;
+}
+
+.social{
+    position: relative;
+    left: 20px;
+    top: 5px;
+}
